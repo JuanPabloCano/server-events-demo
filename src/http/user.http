@@ -1,0 +1,21 @@
+GET http://localhost:3000
+Accept: application/json
+
+###
+
+POST http://localhost:3000
+Content-Type: application/json
+
+{
+  "name": "Juan",
+  "age": 27,
+  "email": "juan@gmail.com",
+  "phone": 840547450
+}
+
+###
+
+GET http://localhost:3000/Juan
+Accept: application/json
+
+###
